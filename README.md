@@ -1,4 +1,4 @@
-[![CI](https://github.com/Puchao64/1inch-mobile-e2e/actions/workflows/ci.yml/badge.svg)](https://github.com/Puchao64/1inch-mobile-e2e/actions/workflows/ci.yml)
+[![CI](https://github.com/Puchao64/mobile-web-e2e-appium/actions/workflows/ci.yml/badge.svg)](https://github.com/Puchao64/mobile-web-e2e-appium/actions/workflows/ci.yml)
 # Mobile Web E2E — Login Flow (Appium + WebdriverIO)
 
 End-to-end tests for a login form ([the-internet.herokuapp.com/login](https://the-internet.herokuapp.com/login)) running in Chrome on an Android emulator through Appium.
