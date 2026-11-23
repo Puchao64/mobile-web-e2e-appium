@@ -1,12 +1,13 @@
 {
-  "name": "1inch-login-e2e",
+  "name": "mobile-web-login-e2e",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mobile web E2E login tests with Appium and WebdriverIO on an Android emulator",
   "main": "index.js",
   "scripts": {
-  "test": "wdio run ./wdio.conf.js",
-  "wdio": "wdio run ./wdio.conf.js"
-},
+    "test": "wdio run ./wdio.conf.js",
+    "wdio": "wdio run ./wdio.conf.js",
+    "check": "node --check wdio.conf.js && node --check test/specs/test.e2e.js && node --check test/pageobjects/page.js && node --check test/pageobjects/login.page.js && node --check test/pageobjects/secure.page.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

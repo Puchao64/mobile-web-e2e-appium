@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  lint-and-install:
+  install-and-check:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,3 +28,6 @@ jobs:
         run: |
           node -v
           npm -v
+
+      - name: Check syntax
+        run: npm run check

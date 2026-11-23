@@ -1,7 +1,7 @@
 [![CI](https://github.com/Puchao64/1inch-mobile-e2e/actions/workflows/ci.yml/badge.svg)](https://github.com/Puchao64/1inch-mobile-e2e/actions/workflows/ci.yml)
-# 1inch Mobile E2E — Login Playground (Appium + WebdriverIO)
+# Mobile Web E2E — Login Flow (Appium + WebdriverIO)
 
-End-to-end mobile automation tests for the provided Login Playground sample app.
+End-to-end tests for a login form ([the-internet.herokuapp.com/login](https://the-internet.herokuapp.com/login)) running in Chrome on an Android emulator through Appium.
 
 Focus: **login flow validation** and basic CI-ready project structure.
 
@@ -109,7 +109,8 @@ This project uses **GitHub Actions** for Continuous Integration.
 On every push and pull request, the workflow automatically:
 
 - Installs dependencies
-- Runs basic project validation
-- Executes `npm test`
+- Checks the syntax of the config, specs and page objects (`npm run check`)
+
+The E2E tests themselves need an Android emulator and an Appium server, so they are run locally (see above).
 
 You can also run the workflow manually from the **Actions** tab.
